@@ -1,0 +1,101 @@
+".container": {
+	backgroundColor: "white",
+	navBarHidden: true,
+	layout: "vertical"
+},
+".top_view":{
+	top: "0",
+	backgroundColor: "#006977",
+	width: Ti.UI.FILL,
+	height: "10%"
+},
+"#main_logo":{
+	top: "10%",
+	image: "/images/logo.png",
+	width: "200dp",
+	height: "40dp"
+},
+".bottom_view":{
+	backgroundColor: "#F0E9EB",
+	width: Ti.UI.FILL,
+	height: "10%"
+},
+".body_view":{
+	width: Ti.UI.FILL,
+	height: "80%",
+	layout: "vertical"
+},
+"#seach_view":{
+	layout: "horizontal",
+	height: "10%",
+	top: "20%"
+},
+"#reg_loc_but":{
+	image: "/images/regnew_but.png",
+	height: "10%",
+	top: "5%"
+}
+"#search_but":{
+	image: "/images/search_but.png",
+	left: "0"
+},
+"#left_search_view":{
+	left: "0",
+	width: "70%"
+},
+"#right_search_view":{
+	right: "0",
+	width: "30%"
+},
+"#main_search_text":{
+	width: "90%",
+	right: "0",
+	height: Ti.UI.FILL
+},
+".top_half_view":{
+	width: Ti.UI.FILL,
+	height: "45%",
+	layout: "vertical"
+},
+".bottom_half_view":{
+	width: Ti.UI.FILL,
+	height: "45%",
+	layout: "vertical"
+},
+"#check_pos":{
+	image: "/images/check_pos.png",
+	top: "20%"
+},
+".scroll":{
+	height: "90%",
+	width: Ti.UI.FILL
+},
+".back_but":{
+	image: "/images/back_but.png",
+	left: "10dp"
+},
+"TextField":{
+	width: "60%"
+},
+".hor_view":{
+	layout: "horizontal",
+	height: "20%",
+	top: "5dp"
+},
+".check_label":{
+	left: "5dp",
+	color: "black",
+	width: "30%"
+},
+"#get_place_but":{
+	image: "/images/get_place_but.png",
+	top: "5dp"
+},
+"#new_bottom_label":{
+	top: "20%",
+	color: "#cc8316"
+},
+"#new_top_label":{
+	left: "50%"
+}
+

@@ -1,0 +1,56 @@
+<Alloy>
+	<Window class="container">
+		<View id="main_top_view" class="top_view"></View>
+		<ImageView id="main_logo"></ImageView>
+		<View id="seach_view">
+			<View id="left_search_view">
+				<TextField id="main_search_text"></TextField>
+			</View>
+			<View id="right_search_view">
+				<ImageView id="search_but"></ImageView>
+			</View>
+		</View>
+		<ImageView id="reg_loc_but"></ImageView>
+		<View id="main_bottom_view" class="bottom_view"></View>
+	</Window>
+	<Window class="container" id="new_position_win">
+		<View id="main_top_view" class="top_view">
+			<ImageView class="back_but"></ImageView>
+			<Label id="new_top_label">Step 1</Label>
+		</View>
+		<View id="new_pos_top_view" class="top_half_view">
+			<View class="hor_view">
+				<Label class="check_label">Country</Label>
+				<TextField id="country_text"></TextField>
+			</View>
+			<View class="hor_view">
+				<Label class="check_label">City</Label>
+				<TextField id="city_text"></TextField>
+			</View>
+			<View class="hor_view">
+				<Label class="check_label">Search word</Label>
+				<TextField id="pos_word_text"></TextField>
+			</View>
+			<ImageView id="get_place_but"></ImageView>
+		</View>
+		<View id="new_pos_bottom_view" class="bottom_half_view">
+			<Label id="new_bottom_label">Register a LocName to Your current place</Label>
+			<ImageView id="check_pos"></ImageView>
+		</View>
+	</Window>
+	<Window id="countries_win" class="container">
+		<ScrollView id="countries_scroll" class="scroll"></ScrollView>
+		<View id="" class="bottom_view">
+			<Button id="countries_back" class="back_but" ></Button>
+		</View>
+	</Window>
+	<Window id="cities_win" class="container">
+		<ScrollView id="cities_scroll" class="scroll"></ScrollView>
+		<View id="" class="bottom_view">
+			<Button id="cities_back" class="back_but" ></Button>
+		</View>
+	</Window>
+	<Window id="new_map_win" clas="container">
+		
+	</Window>
+</Alloy>
