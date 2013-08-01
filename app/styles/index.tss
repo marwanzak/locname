@@ -97,5 +97,57 @@
 },
 "#new_top_label":{
 	left: "50%"
+},
+".top_label":{
+	left: "50%"
+},
+"#step3_top_view":{
+	height: "70%",
+	width: Ti.UI.FILL,
+	layout: "vertical"
+},
+"#step3_bottom_view":{
+	height: "20%",
+	width: Ti.UI.FILL
+},
+"#step3_pro_but":{
+	image: "/images/to_step4.png"
+},
+"#step3_address_text":{
+	width: "60%",
+	height: "100"
+},
+".modal_win":{
+	modal: true,
+	backgroundColor: "black",
+	opacity: "0.5"
+},
+".modal_view":{
+	layout: "vertical",
+	backgroundColor: "white",
+	borderColor: "black",
+	borderWidth: "2dp",
+	borderRadius: "5dp",
+	top: "25%",
+	width: "80%",
+	height: Ti.UI.SIZE
+},
+"Label":{
+	color: "black"
+},
+"#step2_map":{
+	width: Ti.UI.FILL,
+	height: "70%"
+},
+"#step2_third_view":{
+	width: Ti.UI.FILL,
+	height: "10%",
+	backgroundColor: "gray"
+},
+"#to_step3_but":{
+	image: "/images/to_step3.png"
+},
+"#to_step4_but":{
+	image: "/images/to_final.png"
 }
 

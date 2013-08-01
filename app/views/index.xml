@@ -11,10 +11,9 @@
 			</View>
 		</View>
 		<ImageView id="reg_loc_but"></ImageView>
-		<View id="main_bottom_view" class="bottom_view"></View>
 	</Window>
-	<Window class="container" id="new_position_win">
-		<View id="main_top_view" class="top_view">
+	<Window class="container" id="step1_win">
+		<View id="" class="top_view">
 			<ImageView class="back_but"></ImageView>
 			<Label id="new_top_label">Step 1</Label>
 		</View>
@@ -50,7 +49,58 @@
 			<Button id="cities_back" class="back_but" ></Button>
 		</View>
 	</Window>
-	<Window id="new_map_win" clas="container">
-		
+	<Window id="step2_win" class="container">
+		<View id="" class="top_view">
+			<ImageView class="back_but"></ImageView>
+			<Label id="">Step 2</Label>
+		</View>
+		<View id="step2_map"></View>
+		<View id="step2_third_view">
+			<Label id="step2_bottom_label"></Label>
+		</View>
+		<View id="step2_bottom_view">
+			<ImageView id="to_step3_but"></ImageView>
+		</View>
+	</Window>
+	<Window id="step3_win" class="container">
+		<View id="" class="top_view">
+			<ImageView class="back_but"></ImageView>
+			<Label id="" class="top_label">Step 3</Label>
+		</View>
+		<View id="step3_top_view">
+			<View class="hor_view">
+				<Label class="check_label">LocName</Label>
+				<TextField id="step3_name_text"></TextField>
+			</View>
+			<View class="hor_view">
+				<Label class="check_label">Catagory</Label>
+				<TextField id="step3_cat_text" editable=false></TextField>
+			</View>
+			<View class="hor_view">
+				<Label class="check_label">Part</Label>
+				<TextField id="step3_pp_text" editable=false></TextField>
+			</View>
+			<View class="hor_view" height="100">
+				<Label class="check_label">Address</Label>
+				<TextArea id="step3_address_text" editable=false></TextArea>
+			</View>
+		</View>
+		<View id="step3_bottom_view">
+			<ImageView id="to_step4_but"></ImageView>
+		</View>
+	</Window>
+	<Window id="step4_win" class="container"></Window>
+	<Window id="cat_win" class="modal_win">
+		<View id="cat_view" class="modal_view">
+			<Label id="personal_label">Personal</Label>
+			<Label id="business_label">Business</Label>
+			<Label id="event_label">Event</Label>
+		</View>
+	</Window>
+	<Window id="pp_win" class="modal_win">
+		<View id="pp_view" class="modal_view">
+			<Label id="public_label">Public</Label>
+			<Label id="private_label">Private</Label>
+		</View>
 	</Window>
 </Alloy>
